@@ -1,0 +1,106 @@
+@font-face
+{
+    src: url(font/CursedTimerUlil-Aznm.ttf);
+    font-family: CursedTimer;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 575px;
+    height: 450px;
+    background-color: #1B244A;
+}
+
+
+.container .player
+{
+    margin-top: 68px;
+    margin-bottom: 21px;
+}
+
+.score
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    margin-bottom: 26px;
+}
+
+.score .score-point
+{
+    color: #F94F6D;
+    font-weight: 400;
+    font-family: CursedTimer;
+    font-size: 90px;
+    line-height: 126.67px;
+}
+
+.bx-points
+{
+    font-family: CursedTimer;
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+    height: 45px;
+}
+
+.points
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    border: 1px solid #9AABD8;
+}
+
+.points:hover
+{
+    border: 1px solid green;
+    color: green;
+}
+
+.newGame
+{
+    position: absolute;
+    bottom: 128px;
+}
+
+button
+{
+    color: white;
+    background: green;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px 5px 10px;
+}
+
+button:hover
+{
+    border: 1px solid black;
+}
